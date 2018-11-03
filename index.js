@@ -1,14 +1,24 @@
-var animal = 'dog'
+var animal;
 
 function myAnimal() {
-  return animal
+  if(animal == 'dog'){
+    return animal;
+  }
+
 }
 
 function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  return animal
+  if(animal== 'cat'){
+      return animal;
+  }
+  else {
+    return animal;
+  }
+
+
 }
 
 function add2(n) {
